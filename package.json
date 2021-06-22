@@ -1,0 +1,28 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "protractor",
+  "main": "protractor.config.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.0.0",
+    "mochawesome": "^6.2.2",
+    "protractor": "^5.4.2",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliyaloika1/Protractor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuliyaloika1/Protractor/issues"
+  },
+  "homepage": "https://github.com/yuliyaloika1/Protractor#readme"
+}
