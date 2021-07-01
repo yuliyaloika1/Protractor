@@ -1,5 +1,5 @@
 const {expect} = require("chai");
-const PageFactory = require("../pages/pageSections");
+const PageFactory = require("../pages/pageFactory");
 const {protractor, browser, Key} = require('protractor');
 const EC = protractor.ExpectedConditions;
 

@@ -5,7 +5,7 @@ class InsightsPage extends BasePage {
     constructor() {
       super();
       this.url = "https://www.epam.com/insights";
-      this.ourWorkTitle = new Element("Insights Title", ".title--mixed-case");  
+      this.insightsTitle = new Element("Insights Title", ".title--mixed-case");  
     };
     open() {
       return super.open(this.url);
