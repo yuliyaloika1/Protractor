@@ -24,7 +24,7 @@ class CareersPage extends BasePage {
     getSkills() {
         return new Element('Expand Skills drop-down', `div.selected-params`);
     }
-    getYoungSpecialist() {
+    getManagement() {
         return new Element('Select Management', '//span[contains(text(), \'Management\')]', true)
     }
 

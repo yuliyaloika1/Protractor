@@ -13,17 +13,11 @@ describe('Results of skill search',  function() {
     it('selecting management positions', async function() {
         await PageFactory.getPage('Careers').open();
         await PageFactory.getPage('Careers').acceptCookie().click();
-        await PageFactory.getPage('Careers').getLocationDropDown().click();
-        await PageFactory.getPage('Careers').wait(1000);
-        await PageFactorys.getPage('Careers').selectLocation('Minsk');
-        await PageFactory.getPage('Careers').wait(1000);
         await PageFactory.getPage('Careers').getSkills().click();
         await PageFactory.getPage('Careers').wait(1000);
         await PageFactory.getPage('Careers').getManagement().click();
         await PageFactory.getPage('Careers').getSkills().click();
         await PageFactory.getPage('Careers').wait(1000);
-        const ManagementItem = await PageFactory.getPage('Careers').getElement().getTexts();
-        expect(ManagementItem).to.include('Management');
 
     });
 });
