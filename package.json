@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "webdriver-manager update --version.standalone=3.4.0",
-    "test": "protractor ./pages/protractor.config.js"
+    "test": "protractor ./pages/config/protractor.config.js"
   },
   "repository": {
     "type": "git",
